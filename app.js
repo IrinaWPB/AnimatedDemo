@@ -11,4 +11,4 @@ setInterval( function() {
     for (let letter of letters) {
         letter.style.color = rgbColors();
     }
-}, 1000);
+}, 2000);
