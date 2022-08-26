@@ -1,8 +1,8 @@
 const letters = document.querySelectorAll('span');
 
 function rgbColors() {
-    let r  = Math.floor(Math.random() * 256);
-    let g  = 0;
+    let r  = 0;
+    let g  = Math.floor(Math.random() * 256);
     let b = Math.floor(Math.random() * 256);
     return `rgb(${r},${g},${b})`;
 }
