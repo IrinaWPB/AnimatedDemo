@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(228, 210, 152);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span {
+    font-size: 200px;
+    margin-left: 30px;
+    font-family: 'Permanent Marker', cursive;
+    transition: color 1000ms;
+}
